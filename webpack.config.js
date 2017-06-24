@@ -28,5 +28,8 @@ module.exports = {
   watchOptions: {
     poll: 1000,
     ignored: /node_modules|css|styl|dist|build|docs/
+  },
+  externals: {
+    createjs: 'createjs'
   }
 };
