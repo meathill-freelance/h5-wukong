@@ -10,6 +10,8 @@ gen
 
 # repo
 node_modules
+assets
 
 # build
 css
+dist
