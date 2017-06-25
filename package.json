@@ -35,9 +35,9 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
+    "director": "^1.2.8",
     "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0",
-    "page": "^1.7.1",
     "preloadjs": "0.0.0",
     "sizzle": "^2.3.3"
   }
