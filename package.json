@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stylus": "mkdir css & stylus -w -m styl/screen.styl styl/preloader.styl -o css/",
+    "stylus": "mkdir css & stylus -w -m --include-css styl/screen.styl styl/preloader.styl -o css/",
     "webpack": "webpack"
   },
   "repository": {
@@ -37,6 +37,8 @@
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0",
-    "preloadjs": "0.0.0"
+    "page": "^1.7.1",
+    "preloadjs": "0.0.0",
+    "sizzle": "^2.3.3"
   }
 }
