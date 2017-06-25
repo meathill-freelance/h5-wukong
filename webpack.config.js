@@ -3,6 +3,7 @@
  */
 
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   context: path.resolve(__dirname, 'app'),
@@ -29,7 +30,9 @@ module.exports = {
     poll: 1000,
     ignored: /node_modules|css|styl|dist|build|docs/
   },
-  externals: {
-    createjs: 'createjs'
-  }
+  plugins: [
+    new webpack.DefinePlugin({
+      BASE_PATH: JSON.stringify('')
+    })
+  ]
 };
