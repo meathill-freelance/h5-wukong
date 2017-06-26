@@ -29,6 +29,7 @@ export let zhuchuang = `
     <a href="#/zhuchuang/yangdi" class="col2"></a>
     <a href="#/zhuchuang/yufeihong" class="bottom"></a>
   </div>
+  <a href="#/haibao" class="haibao-button"></a>
   <a href="#/home" class="back-button"></a>
 `;
 
@@ -38,6 +39,35 @@ export let video = `
 `;
 
 export let haibao = `
-  <img src="./img/haibao/{{name}}.jpg">
-  <a href="#/zhuchuang" class="back-button"></a>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="./img/haibao/pengyuyan.jpg">
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/haibao/nini.jpg">
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/haibao/ouhao.jpg">
+    </div>    
+    <div class="swiper-slide">
+      <img src="./img/haibao/yuwenle.jpg">
+    </div>    
+    <div class="swiper-slide">
+      <img src="./img/haibao/zhengshuang.jpg">
+    </div>    
+    <div class="swiper-slide">
+      <img src="./img/haibao/qiaoshan.jpg">
+    </div>    
+    <div class="swiper-slide">
+      <img src="./img/haibao/yangdi.jpg">
+    </div>    
+    <div class="swiper-slide">
+      <img src="./img/haibao/yufeihong.jpg">
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+<a href="#/zhuchuang" class="back-button"></a>
 `;

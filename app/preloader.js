@@ -50,6 +50,8 @@ function start() {
   });
   queue.loadManifest([
     '//cdn.staticfile.org/Director/1.2.8/director.min.js',
+    '//cdn.staticfile.org/Swiper/3.4.2/css/swiper.min.css',
+    '//cdn.staticfile.org/Swiper/3.4.2/js/swiper.min.js',
     {
       id: 'homepage',
       src: './img/homepage.jpg'
@@ -125,6 +127,10 @@ function start() {
     {
       id: 'back-button',
       src: './img/back-button.png'
+    },
+    {
+      id: 'haibao-button',
+      src: './img/haibao-button.png'
     },
     {
       id: 'cloud1',

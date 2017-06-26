@@ -25,12 +25,18 @@ class App {
     let page = document.createElement('div');
     page.innerHTML = html;
     page.className = `container page out ${name}`;
-    let url = this.getResourceURL(name);
-    page.style.backgroundImage = `url(${url})`;
+    if (name !== 'haibao') {
+      let url = this.getResourceURL(name);
+      page.style.backgroundImage = `url(${url})`;
+    }
     page = document.body.appendChild(page);
     let image = document.createElement('img');
     image.src = this.getResourceURL('back-button');
     $('.back-button', page)[0].appendChild(image);
+    if (name === 'zhuchuang') {
+      let image = this.queue.getResult('haibao-button');
+      $('.haibao-button', page)[0].appendChild(image);
+    }
     if (name === 'video') {
       url = this.getResourceURL('poster');
       let video = $('video', page)[0];
