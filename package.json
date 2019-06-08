@@ -34,7 +34,7 @@
     "gulp-replace": "^0.6.1",
     "gulp-stylus": "^2.7.0",
     "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.3"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
