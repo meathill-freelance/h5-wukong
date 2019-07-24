@@ -23,18 +23,16 @@
   },
   "homepage": "https://meathill-freelance.github.io/h5-wukong/",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
     "del": "^3.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^3.10.0",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^6.0.0",
     "gulp-replace": "^0.6.1",
-    "gulp-stylus": "^2.7.0",
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.3"
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
